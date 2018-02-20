@@ -1,8 +1,0 @@
-{
-  "generator-polymer-anoblet": {
-    "promptValues": {
-      "_path": "src/components",
-      "separateDirectory": false
-    }
-  }
-}
