@@ -1,0 +1,18 @@
+<link rel="import" href="../../../bower_components/polymer/polymer-element.html">
+
+<dom-module id="<%=element%>">
+    <template>
+    </template>
+    <script>
+        class <%=_class%> extends Polymer.Element {
+            static get is() {
+                return '<%=element%>';
+            }
+
+            static get properties() {
+                return {}
+            }
+        }
+        window.customElements.define(<%=_class%>.is, <%=_class%>);
+    </script>
+</dom-module>
